@@ -1,0 +1,25 @@
+<app-edit-keg [selectedKeg]="selectedKeg"></app-edit-keg>
+<div *ngIf="selectedKeg">
+  <h3>{{selectedKeg.name}}</h3>
+  <h3>Edit Keg</h3>
+  <label>Enter Keg Name:</label>
+  <input [(ngModel)]="selectedKeg.name">
+  <br>
+  <br>
+  <h3>{{selectedKeg.brand}}</h3>
+  <label>Enter Keg Brand:</label>
+  <input [(ngModel)]="selectedKeg.brand">
+  <br>
+  <br>
+  <h3>{{selectedKeg.price}}</h3>
+  <label>Enter Keg Price:</label>
+  <input [(ngModel)]="selectedKeg.price">
+  <br>
+  <br>
+  <h3>{{selectedKeg.alcoholContent}}</h3>
+  <label>Enter Keg Alcohol Content:</label>
+  <input [(ngModel)]="selectedKeg.alcoholContent">
+  <br>
+  <br>
+  <button (click)="finishedEditing()">Done</button>
+</div>
