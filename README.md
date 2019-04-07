@@ -4,7 +4,7 @@
 #### By **Theary Im**  04/03/19
 
 ## Specs
-1. A user can see a list/menu of all available kegs. For each keg, a user can see its name, bran, price and alcohol content.
+1. A user can see a list/menu of all available kegs. For each keg, a user can see its name, brand, price and alcohol content.
 2. A user can fill out a form when they tap a new keg to add it to the list.
 3. A user can edit a keg's properties after entering them in the case mistake was made.
 4. A user can click a button next to a keg whenever they sell a pint of it. The number of pints will decrease by 1.
